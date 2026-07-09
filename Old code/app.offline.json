@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Liwa",
+    "slug": "liwa-trading-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FF6B6B"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.liwa.tradingapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6B6B"
+      },
+      "package": "com.liwa.tradingapp",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      "expo-location",
+      "expo-barcode-scanner"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "offline": true
+  }
+}

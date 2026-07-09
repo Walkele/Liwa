@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "572e4f01-c0e4-4271-92d9-e839cf8ab896"
+      }
+    },
+    "android": {
+      "package": "com.michaele_baye.liwa"
+    }
+  }
+}
