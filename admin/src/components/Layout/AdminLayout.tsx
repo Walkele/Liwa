@@ -32,6 +32,7 @@ import {
   AccountCircle,
   Logout,
   Security,
+  Payment,
 } from '@mui/icons-material';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
@@ -48,6 +49,7 @@ const menuItems = [
   { text: 'Users', icon: <People />, path: '/users' },
   { text: 'Items', icon: <Inventory />, path: '/items' },
   { text: 'Trades', icon: <SwapHoriz />, path: '/trades' },
+  { text: 'Payments', icon: <Payment />, path: '/payments' },
   { text: 'Reports', icon: <Report />, path: '/reports' },
   { text: 'Analytics', icon: <Analytics />, path: '/analytics' },
   { text: 'Notifications', icon: <Notifications />, path: '/notifications' },
